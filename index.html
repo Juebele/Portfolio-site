@@ -8,12 +8,12 @@
 
 <body class="body">
     
-<header class="header">
-    <div class="logo">PERSONAL LOGO</div>
+<header class="header" id="home">
+    <div class="logo">James Uebele</div>
     <div class="navigation">
-        <a href="/">Home</a>
-        <a href="id="about">About</a>
-        <a href="/">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
 
     </div>
     
@@ -22,41 +22,40 @@
 <section class="hero">
     <div class="hero-container">
         <div class="column-left">
-            <h1>James Uebele</h1>
-            <p>A software developer making killer websites!</p>
-        </div>
-        <div class="column-right">
-            <img src="./airplane.png" alt="This is a picture of an airplane" class="hero-image">
-        </div>
+            <h1>A software developer making killer websites!</h1>
+            <!-- <img src="./header.jpeg" alt="This is a picture of me" class="hero-image"> -->
     </div>
 
 </section>
 
-<nav class="nav">
-    <div class="nav-text">
-        <h2>Here are some of the incredible projects that I've worked on</h2>
+<section class="container">
+    <div class="card">
+        <div class="card-image project-1"></div>
+        <h2>Project 1</h2>
+        <p>The Cessna 172 Skyhawk is an American four-seat, single-engine, high wing, fixed-wing aircraft made by the Cessna Aircraft Company.[2] First flown in 1955,[2] more 172s have been built than any other aircraft.</p>
+        <a href="https://en.wikipedia.org/wiki/Cessna_172" target="_blank">Learn More</a>
     </div>
-    <div class="nav-links">
-            <a href="https://en.wikipedia.org/wiki/Cessna_172" target="_blank">Placeholder project 1</a>
-            <a href="https://en.wikipedia.org/wiki/Cessna_208_Caravan" target="_blank">Placeholder project 2</a>
-            <a href="https://en.wikipedia.org/wiki/Cessna_CitationJet/M2" target="_blank">Placeholder project 3</a>
+    <div class="card">
+        <div class="card-image project-2"></div>
+        <h2>Project 2</h2>
+        <p>The Cessna 208 Caravan is a utility aircraft produced by Cessna. The project was commenced on November 20, 1981, and the prototype first flew on December 9, 1982.</p>
+        <a href="https://en.wikipedia.org/wiki/Cessna_208_Caravan" target="_blank">Learn More</a>
     </div>
-</nav>
-
-<section class="about">
-    <h3 id="about">
-        About Me
-    </h3>
-    <div>
-        I'm a software developer with a unique background with startups in the supply chain industry.
+    <div class="card">
+        <div class="card-image project-3"></div>
+        <h2>Project 3</h2>
+        <p>The Cessna Citation II are light corporate jets built by Cessna as part of the Citation family. Stretched from the Citation I, the Model 550 was announced in September 1976, first flew on January 31, 1977, and was certified in March 1978. </p>
+        <a href="https://en.wikipedia.org/wiki/Cessna_CitationJet/M2" target="_blank">Learn More</a>
     </div>
 </section>
 
-<footer class="footer">
-    <h4 class="footer-text">
+<section class="about" id="about">
+    <h3>About Me</h3>
+    <p>I'm a software developer with a unique background with startups in the supply chain industry.</p>
+    <h4 class="about-text">
         Contact Me
     </h4>
-    <div class="footer-links">
+    <div class="about-links" id="contact">
         <ul>
             <li>
                 <a href="mailto:eronuebele@gmail.com" target="_blank">Email</a>
@@ -64,8 +63,16 @@
             <li>
                 <a href="https://www.linkedin.com/in/juebele/" target="_blank"> LinkedIn</a>
             </li>
+            <li>
+                <a href="https://github.com/Juebele?tab=repositories" target="_blank">GitHub</a>
+            </li>
         </ul>
     </div>
+    
+</section>
+
+<footer class="footer">
+    
 </footer>
 
 </body>
