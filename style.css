@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-color: var(--color4);
     flex-wrap: wrap;
     --color1: #a9a9a9;
     --color2: #caebf2;
@@ -26,8 +25,7 @@
 
 .logo{
     color: black;
-    background-color: var(--color2);
-    border-radius: 20px;
+    background-color: transparent;
     font-size: 35px;
     font-weight: bold;
     font-style: italic;
@@ -38,8 +36,6 @@
     color: black;
     background-color: var(--color2);
     border-radius: 20px;
-    padding: 10px;
-    margin-bottom: 20px;
 }
 
 .header a:hover{
@@ -48,8 +44,7 @@
 }
 
 .navigation {
-    background-color: var(--color1);
-
+    background-color: transparent;
 }
 
 .hero-container {
@@ -114,23 +109,30 @@
     height: 150px;
     margin-bottom: 15px;
     background-size: cover;
-    border-radius: 15px;
+    border-top: 15px;
 }
 
 .project-1 {
-    background-image: url(./assets/cessna172.jpeg)
+    background-image: url(./assets/cessna172.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .project-2 {
-    background-image: url(./assets/cessna208.jpeg)
+    background-image: url(./assets/cessna208.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .project-3 {
-    background-image: url(./assets/cessnam2.jpeg)
+    background-image: url(./assets/cessnam2.jpeg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .card h2, .card p{
     padding: 10px;
+    background-color: transparent;
 }
 
 .card a {
@@ -153,20 +155,8 @@
 .about {
     display: flex;
     font-size: 30px;
-    border-radius: 25px;
+    border-top-right-radius: 15px;
     padding: 10px;
-    background-color: var(--color1);
-}
-
-.about h3 {
-    background-color: var(--color1);
-}
-
-.about h4 {
-    background-color: var(--color1);
-}
-
-.about p {
     background-color: var(--color1);
 }
 
@@ -176,12 +166,8 @@
     background-color: var(--color1);
 }
 
-.about li{
-    background-color: var(--color1);
-}
-
 .about a{
-    font-size: 25px;
+    font-size: 2rem;
     color: black;
     text-decoration: none;
     background-color: var(--color2);
