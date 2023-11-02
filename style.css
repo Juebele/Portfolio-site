@@ -1,7 +1,21 @@
 * {
-    
+
 }
 
 .container {
     background-color: beige;
+}
+
+#trust-images {
+    background-color: var(--light-red);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#trust-images img {
+    max-width: 10em;
+    max-height: auto;
+    margin: 10px 0px;
 }
